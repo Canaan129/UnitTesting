@@ -38,9 +38,8 @@ namespace UnitTests
             // Arrange
 
             // Act
-            var result = new ProductModel();
-            result.Id = "testId";
-
+            var result = new ProductModel() { Id = "testId" };
+           
             // Assert
             Assert.AreEqual(result.Id, "testId");
         }
@@ -51,8 +50,7 @@ namespace UnitTests
             // Arrange
 
             // Act
-            var result = new ProductModel();
-            result.Maker = "testMaker";
+            var result = new ProductModel() { Maker = "testMaker"};
 
             // Assert
             Assert.AreEqual(result.Maker, "testMaker");
@@ -64,8 +62,7 @@ namespace UnitTests
             // Arrange
 
             // Act
-            var result = new ProductModel();
-            result.Image = "testImage.png";
+            var result = new ProductModel() { Image = "testImage.png" };
 
             // Assert
             Assert.AreEqual(result.Image, "testImage.png");
@@ -77,8 +74,7 @@ namespace UnitTests
             // Arrange
 
             // Act
-            var result = new ProductModel();
-            result.Url = "testUrl.com";
+            var result = new ProductModel() { Url = "testUrl.com" };
 
             // Assert
             Assert.AreEqual(result.Url, "testUrl.com");
@@ -90,8 +86,7 @@ namespace UnitTests
             // Arrange
 
             // Act
-            var result = new ProductModel();
-            result.Title = "testTitle";
+            var result = new ProductModel() { Title = "testTitle" };
 
             // Assert
             Assert.AreEqual(result.Title, "testTitle");
@@ -103,8 +98,7 @@ namespace UnitTests
             // Arrange
 
             // Act
-            var result = new ProductModel();
-            result.Description = "testDescription";
+            var result = new ProductModel() { Description = "testDescription" };
 
             // Assert
             Assert.AreEqual(result.Description, "testDescription");
@@ -116,8 +110,7 @@ namespace UnitTests
             // Arrange
 
             // Act
-            var result = new ProductModel();
-            result.Email = "testEmail";
+            var result = new ProductModel() { Email = "testEmail" };
 
             // Assert
             Assert.AreEqual(result.Email, "testEmail");
@@ -129,8 +122,7 @@ namespace UnitTests
             // Arrange
 
             // Act
-            var result = new ProductModel();
-            result.Logistics = "testLogistics";
+            var result = new ProductModel() { Logistics = "testLogistics" };
 
             // Assert
             Assert.AreEqual(result.Logistics, "testLogistics");
