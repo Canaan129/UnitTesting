@@ -161,6 +161,18 @@ namespace UnitTests
         }
 
         [TestMethod]
+        public void ProductModel_Method_ToString_Is_Not_Null_Should_Pass()
+        {
+            // Arrange
+
+            // Act
+            var result = new ProductModel();
+
+            // Assert
+            Assert.IsNotNull(result.ToString());
+        }
+
+        [TestMethod]
         public void ProductModel_Method_AverageRating_Default_Should_Pass()
         {
             // Arrange
